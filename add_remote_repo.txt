@@ -1,0 +1,10 @@
+echo "# PROJECT-NAME" >> README.md
+git init
+git add .
+git commit -m "YOUR COMMIT"
+
+Next, after initialized a repozitory on GitHub:
+
+git remote add origin LINK
+git branch -M main
+git push -u origin main
